@@ -46,6 +46,12 @@ public class Ejercicio3 {
         return autos;
     }
     
+    public void showStack(){
+        for (Auto auto : autos) {
+            auto.printInfo();
+        }
+    }
+    
     
     
     

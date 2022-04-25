@@ -42,6 +42,7 @@ public class PracticaCollections {
         e3.getAutos().pop().printInfo();
         e3.getAutos().push(new Auto(433, "Ford", "Falcon", "Verde", "AF304"));
         e3.getAutos().push(new Auto(947, "Honda", "Civic", "negro", "ER434"));
+        e3.showStack();
         
         */
     }
